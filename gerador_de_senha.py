@@ -1,17 +1,10 @@
-"""gerador_de_senha.py
+#Gerador de senha (Python).
 
-Gerador de senhas 100% via terminal (Python).
+#Importante:senhas devem usar 'secrets' para aleatoriedade criptográfica nao 'random'
 
-Aprendizado (importante):
-- Senhas devem usar `secrets` (aleatoriedade criptográfica), não `random`.
-- A função precisa receber `tamanho` como INTEIRO.
-- As opções (minúsculas/maiúsculas/números/símbolos) precisam realmente afetar os caracteres permitidos.
-
-Rodar:
-    python Projetos/gerador_de_senha.py
-"""
-
-from __future__ import annotations
+from __future__ import annotations 
+#from __future__ é um módulo especial do python que traz recursos da versão futura 
+#import annotations = Ativa o novo jeito de interpretar tipos
 
 import secrets
 import string
